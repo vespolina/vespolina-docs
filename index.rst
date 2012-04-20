@@ -13,7 +13,15 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+Entities
+---------
 
+.. toctree::
+    :hidden:
+
+    entities/index
+
+Read the :doc:`Entities </entities/index>` documentation.
 
 Indices and tables
 ==================
