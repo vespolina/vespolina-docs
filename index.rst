@@ -23,6 +23,18 @@ Entities
 
 Read the :doc:`Entities </entities/index>` documentation.
 
+
+Bundles
+-------
+
+.. toctree::
+    :hidden:
+
+    bundles/index
+
+:doc:`StoreBundle </bundles/store>`
+
+
 Indices and tables
 ==================
 
