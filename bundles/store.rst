@@ -1,2 +1,5 @@
 Store
 =====
+
+General Concepts
+================
