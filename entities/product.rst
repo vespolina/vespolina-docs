@@ -6,8 +6,19 @@ General Concepts
 ================
 
 The Product class is a container for basic product information. This includes product features, product options and
-identifiers.
+identifiers. A Product can be conceptualized in the same way a product in the physical product is understood. A
+product has certain physical properties that do not change during the course of its life in the commerce process.
+A product come into a warehouse and it becomes inventory, but the product itself doesn't change. Same with when a 
+product is put on the shelf in a store. It is now merchandise, but the product hasn't changes, just its role in the 
+commerce process has changed.
 
+When a product is moved into a SalesChannel (for example, an ecommerce site) to be purchased, the Product object now 
+becomes part of a Merchandise object. The Merchadise object contains additional information like a description, the 
+price, or addition images that are site specific. Having the the Product become Merchandise also allows a Product to 
+be priced differently or display different desciptions in multiple SalesChannels
+
+Product class
+-------------
 The minimal data needed for a Product is a name.
 
 Features
