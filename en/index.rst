@@ -31,32 +31,30 @@ Components
 .. toctree::
     :hidden:
 
-- Core
-- Billing + Bundle
-- Cart + Bundle
-- Order + Bundle
-- Partner + Bundle
-- Pricing + Bundle
-- Product + Bundle
-- Store + Bundle
-- Taxonomy + Bundle
+    components/index
+
+Vespolina has a decoupled setup. This way you won't need to install a full
+webshop if you only require a inventory system.
+
+:doc:`Read more about the components <components/index>`
 
 
-Bundles
--------
+Framework integration
+---------------------
 
 .. toctree::
     :hidden:
 
-    bundles/index
+    frameworks/symfony
 
-:doc:`StoreBundle </bundles/store>`
+Because of the decoupled setup of Vespolina, we are not bound to a single
+framework. At first we provide an integration for `Symfony`_, but integrations with other frameworks are possible.
 
 About this documentation
 ------------------------
 
 This documentation is still a work in progress, but the goal is to follow
-the same rules and standards from `Symfony2 development process`_.
+the same rules and standards from `Symfony development process`_.
 
 - `Github`_
 - `Website`_
@@ -75,7 +73,8 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-.. _`Symfony2 development process`: http://symfony.com/doc/current/contributing/index.html
+.. _`Symfony`: http://symfony.com
+.. _`Symfony development process`: http://symfony.com/doc/current/contributing/index.html
 .. _`Github`: https://github.com/vespolina
 .. _`Website`: http://www.vespolina-project.org
 .. _`IRC Channel`: irc://freenode/#vespolina

@@ -1,4 +1,0 @@
-Store configuration
-===================
-
-TODO
