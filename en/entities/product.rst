@@ -3,7 +3,7 @@ Product
 
 
 General Concepts
-================
+----------------
 
 The Product class is a container for basic product information. This includes product features, product options and
 identifiers. A Product can be conceptualized in the same way a product in the physical product is understood. A

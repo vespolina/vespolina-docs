@@ -34,7 +34,7 @@ Components
     components/index
 
 Vespolina has a decoupled setup. This way you won't need to install a full
-webshop if you only require a inventory system.
+webshop if you only need an inventory system for instance.
 
 :doc:`Read more about the components <components/index>`
 

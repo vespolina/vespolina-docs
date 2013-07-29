@@ -1,0 +1,41 @@
+@import url(default.css);
+/* line 10, ../sass/vespolina.scss */
+div.related {
+  margin: 0 auto;
+  width: 980px;
+  max-width: 100%;
+  min-width: 768px;
+  color: #000;
+  height: 70px;
+}
+/* line 15, ../sass/vespolina.scss */
+div.related a {
+  color: #08C;
+}
+/* line 19, ../sass/vespolina.scss */
+div.related ul {
+  line-height: 70px;
+}
+/* line 23, ../sass/vespolina.scss */
+div.related h3 {
+  display: block;
+  text-indent: -9999px;
+  height: 67px;
+  width: 193px;
+  background: url(logo.png) no-repeat;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+/* line 33, ../sass/vespolina.scss */
+div.related:not(:first-child) {
+  display: none;
+}
+
+/* line 38, ../sass/vespolina.scss */
+div.document {
+  margin: 0 auto;
+  width: 980px;
+  max-width: 100%;
+  min-width: 768px;
+}

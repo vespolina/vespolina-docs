@@ -1,0 +1,40 @@
+@import 'default.css';
+
+@mixin container {
+    margin: 0 auto;
+    width: 980px;
+    max-width: 100%;
+    min-width: 768px;
+}
+
+div.related {
+    @include container;
+    color: #000;
+    height: 70px;
+
+    a {
+        color: #08C;
+    }
+
+    ul {
+        line-height: 70px;
+    }
+
+    h3 {
+        display: block;
+        text-indent: -9999px;
+        height: 67px;
+        width: 193px;
+        background: url(logo.png) no-repeat;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    &:not(:first-child) {
+        display: none;
+    }
+}
+
+div.document {
+    @include container;
+}
