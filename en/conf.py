@@ -96,15 +96,7 @@ html_theme = 'vespolina'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-  'linkcolor': '#08C',
-  'visitedlinkcolor': '#08C',
-  'relbarbgcolor': '#F9F9F9',
-  'footerbgcolor': '#F9F9F9',
-  'sidebarbgcolor': '#F2F2F2',
-  'sidebartextcolor': '#1D4B68',
-  'sidebarlinkcolor': '#08C',
-}
+html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['../themes']
