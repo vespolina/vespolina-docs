@@ -25,7 +25,7 @@ javascripts_dir = "static"
 
 on_stylesheet_saved do |filename|
     if (environment != :production)
-        FileUtils.cp(filename, '../../build/en/_static/' + File.basename(filename))
+        FileUtils.cp(filename, '../../_build/html/_static/' + File.basename(filename))
     end
     File.rename(filename, filename + '_t');
 end

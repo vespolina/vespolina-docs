@@ -10,20 +10,55 @@ Vespolina is a php5 ecommerce system that plugs into Symfony2. One of the
 primary goals is to create a decoupled system, libraries that can be used
 in more applications then just Symfony applications.
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-Entities
----------
+Quick Tour
+----------
 
 .. toctree::
     :hidden:
 
-    entities/index
+    quicktour/index
 
-Read the :doc:`Entities </entities/index>` documentation.
+.. toctree::
+   :maxdepth: 1
+
+   quicktour/installation
+   quicktour/store
+   quicktour/catalog
+   quicktour/sales
+
+Book
+----
+
+The book contains a better explanation of the concepts of Vespolina. It
+contains documents that describe how a component works, why it's build as
+it is and how you could use it.
+
+.. toctree::
+    :maxdepth: 1
+
+    book/vespolina-philosophy
+    book/installation
+    book/products
+    book/taxonomy
+    book/partners
+    book/sales
+    book/fulfilment
+    book/process
+
+Cookbook
+--------
+
+The cookbook contains examples how to achive a specific goal. For instance
+it provides an example to configure a 1-day-deal shop.
+
+No cookbook entries have been written yet.
+
+Possible entries:
+
+ - Creating an inventory system
+ - Creating a POS
+ - Setting up a B2B process
+
 
 Components
 ----------
@@ -48,7 +83,10 @@ Framework integration
     frameworks/symfony
 
 Because of the decoupled setup of Vespolina, we are not bound to a single
-framework. At first we provide an integration for `Symfony`_, but integrations with other frameworks are possible.
+framework. At first we provide an integration for `Symfony`_, but integration
+with other frameworks is possible.
+
+:doc:`Read about the Symfony integration <frameworks/symfony>`
 
 About this documentation
 ------------------------
@@ -67,9 +105,6 @@ Contribute
 Want to contribute to this documentation? You can by submiting issues on
 github for typos, grammer mistakes, bugs in example code and so on.
 
-.. code-block:: php
-
-    <?php echo 'test'; ?>
 
 Indices and tables
 ==================

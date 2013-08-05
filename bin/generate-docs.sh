@@ -3,7 +3,7 @@ EXECPATH=`dirname $0`
 cd $EXECPATH
 cd ..
 
-sphinx-build en build/en
+sphinx-build en _build/en
 
 # TODO: PDF
 # sphinx-build -b latex en build/pdf

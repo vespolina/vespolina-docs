@@ -1,4 +1,5 @@
 @import 'default.css';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @mixin container {
     margin: 0 auto;
@@ -32,6 +33,17 @@ div.related {
     }
     &:not(:first-child) {
         display: none;
+    }
+}
+
+div.body {
+    h1 {
+
+    }
+
+    h2 {
+        background: none;
+        font-family: "Open Sans", sans-serif;
     }
 }
 

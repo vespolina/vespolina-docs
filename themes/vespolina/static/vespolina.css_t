@@ -1,5 +1,6 @@
 @import url(default.css);
-/* line 10, ../sass/vespolina.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* line 11, ../sass/vespolina.scss */
 div.related {
   margin: 0 auto;
   width: 980px;
@@ -8,15 +9,15 @@ div.related {
   color: #000;
   height: 70px;
 }
-/* line 15, ../sass/vespolina.scss */
+/* line 16, ../sass/vespolina.scss */
 div.related a {
   color: #08C;
 }
-/* line 19, ../sass/vespolina.scss */
+/* line 20, ../sass/vespolina.scss */
 div.related ul {
   line-height: 70px;
 }
-/* line 23, ../sass/vespolina.scss */
+/* line 24, ../sass/vespolina.scss */
 div.related h3 {
   display: block;
   text-indent: -9999px;
@@ -27,12 +28,18 @@ div.related h3 {
   padding: 0;
   margin: 0;
 }
-/* line 33, ../sass/vespolina.scss */
+/* line 34, ../sass/vespolina.scss */
 div.related:not(:first-child) {
   display: none;
 }
 
-/* line 38, ../sass/vespolina.scss */
+/* line 44, ../sass/vespolina.scss */
+div.body h2 {
+  background: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 50, ../sass/vespolina.scss */
 div.document {
   margin: 0 auto;
   width: 980px;
@@ -40,32 +47,32 @@ div.document {
   min-width: 768px;
 }
 
-/* line 42, ../sass/vespolina.scss */
+/* line 54, ../sass/vespolina.scss */
 div.sphinxsidebar {
   width: 250px;
 }
-/* line 44, ../sass/vespolina.scss */
+/* line 56, ../sass/vespolina.scss */
 div.sphinxsidebar ul {
   margin: 12px 0;
 }
-/* line 47, ../sass/vespolina.scss */
+/* line 59, ../sass/vespolina.scss */
 div.sphinxsidebar p.topless {
   margin: 10px 0 10px 0;
 }
-/* line 51, ../sass/vespolina.scss */
+/* line 63, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper {
   padding: 24px;
 }
-/* line 53, ../sass/vespolina.scss */
+/* line 65, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper li {
   padding: 8px 0;
 }
-/* line 57, ../sass/vespolina.scss */
+/* line 69, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper > ul > li > ul > li {
   margin-top: 4px;
 }
 
-/* line 64, ../sass/vespolina.scss */
+/* line 76, ../sass/vespolina.scss */
 div.bodywrapper {
   margin-left: 250px;
 }
