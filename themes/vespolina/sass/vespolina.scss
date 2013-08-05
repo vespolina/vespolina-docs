@@ -38,3 +38,29 @@ div.related {
 div.document {
     @include container;
 }
+
+div.sphinxsidebar {
+    width: 250px;
+    ul {
+        margin: 12px 0;
+    }
+    p.topless {
+        margin: 10px 0 10px 0;
+    }
+
+    .sphinxsidebarwrapper {
+        padding: 24px;
+        li {
+            padding: 8px 0;
+        }
+        > ul {
+            > li > ul > li {
+                margin-top: 4px;
+            }
+        }
+    }
+}
+
+div.bodywrapper {
+    margin-left: 250px;
+}

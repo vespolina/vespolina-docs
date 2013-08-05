@@ -39,3 +39,33 @@ div.document {
   max-width: 100%;
   min-width: 768px;
 }
+
+/* line 42, ../sass/vespolina.scss */
+div.sphinxsidebar {
+  width: 250px;
+}
+/* line 44, ../sass/vespolina.scss */
+div.sphinxsidebar ul {
+  margin: 12px 0;
+}
+/* line 47, ../sass/vespolina.scss */
+div.sphinxsidebar p.topless {
+  margin: 10px 0 10px 0;
+}
+/* line 51, ../sass/vespolina.scss */
+div.sphinxsidebar .sphinxsidebarwrapper {
+  padding: 24px;
+}
+/* line 53, ../sass/vespolina.scss */
+div.sphinxsidebar .sphinxsidebarwrapper li {
+  padding: 8px 0;
+}
+/* line 57, ../sass/vespolina.scss */
+div.sphinxsidebar .sphinxsidebarwrapper > ul > li > ul > li {
+  margin-top: 4px;
+}
+
+/* line 64, ../sass/vespolina.scss */
+div.bodywrapper {
+  margin-left: 250px;
+}

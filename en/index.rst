@@ -67,6 +67,10 @@ Contribute
 Want to contribute to this documentation? You can by submiting issues on
 github for typos, grammer mistakes, bugs in example code and so on.
 
+.. code-block:: php
+
+    <?php echo 'test'; ?>
+
 Indices and tables
 ==================
 
