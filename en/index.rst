@@ -115,6 +115,6 @@ Indices and tables
 .. _`Symfony`: http://symfony.com
 .. _`Symfony development process`: http://symfony.com/doc/current/contributing/index.html
 .. _`Github`: https://github.com/vespolina
-.. _`Website`: http://www.vespolina-project.org
+.. _`Website`: http://www.vespolina.org
 .. _`IRC Channel`: irc://freenode/#vespolina
 .. _`Dev mailing list`: https://groups.google.com/forum/?fromgroups#!forum/vespolina-dev

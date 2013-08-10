@@ -7,7 +7,7 @@ it's possible to use as a development platform, it's not intended as such.
 Requirements
 ------------
 
- - PHP > 5.3.2
+ - PHP > 5.4.0 (5.3 might work...)
  - MongoDB (at this moment DBAL is not yet fully supported)
 
 Getting the code
