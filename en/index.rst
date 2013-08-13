@@ -38,6 +38,7 @@ it is and how you could use it.
 
     book/vespolina-philosophy
     book/installation
+    book/store
     book/products
     book/taxonomy
     book/partners
