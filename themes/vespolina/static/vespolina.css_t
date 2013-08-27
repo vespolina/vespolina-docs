@@ -21,25 +21,26 @@ div.related ul {
 div.related h3 {
   display: block;
   text-indent: -9999px;
-  height: 67px;
-  width: 193px;
+  height: 50px;
+  width: 230px;
   background: url(logo.png) no-repeat;
   float: left;
   padding: 0;
   margin: 0;
+  margin-top: 8px;
 }
-/* line 34, ../sass/vespolina.scss */
+/* line 35, ../sass/vespolina.scss */
 div.related:not(:first-child) {
   display: none;
 }
 
-/* line 44, ../sass/vespolina.scss */
+/* line 45, ../sass/vespolina.scss */
 div.body h2 {
   background: none;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 50, ../sass/vespolina.scss */
+/* line 51, ../sass/vespolina.scss */
 div.document {
   margin: 0 auto;
   width: 980px;
@@ -47,32 +48,32 @@ div.document {
   min-width: 768px;
 }
 
-/* line 54, ../sass/vespolina.scss */
+/* line 55, ../sass/vespolina.scss */
 div.sphinxsidebar {
   width: 250px;
 }
-/* line 56, ../sass/vespolina.scss */
+/* line 57, ../sass/vespolina.scss */
 div.sphinxsidebar ul {
   margin: 12px 0;
 }
-/* line 59, ../sass/vespolina.scss */
+/* line 60, ../sass/vespolina.scss */
 div.sphinxsidebar p.topless {
   margin: 10px 0 10px 0;
 }
-/* line 63, ../sass/vespolina.scss */
+/* line 64, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper {
   padding: 24px;
 }
-/* line 65, ../sass/vespolina.scss */
+/* line 66, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper li {
   padding: 8px 0;
 }
-/* line 69, ../sass/vespolina.scss */
+/* line 70, ../sass/vespolina.scss */
 div.sphinxsidebar .sphinxsidebarwrapper > ul > li > ul > li {
   margin-top: 4px;
 }
 
-/* line 76, ../sass/vespolina.scss */
+/* line 77, ../sass/vespolina.scss */
 div.bodywrapper {
   margin-left: 250px;
 }
